@@ -1,0 +1,4 @@
+.venv
+climate_data.csv
+crop_data.csv
+.DS_Store
