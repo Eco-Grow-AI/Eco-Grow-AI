@@ -27,6 +27,8 @@ pip install numpy pandas scikit-learn xgboost bayesian-optimization joblib scipy
 git clone https://github.com/your-username/crop-resilience-optimization.git
 cd crop-resilience-optimization
 ```
+## Note
+**Data** Must is NOT in the repository for training, this repository is designed to test and refined th pre-trained model V1.0.0
 
 ### Running the Model
 
