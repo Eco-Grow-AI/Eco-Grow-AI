@@ -67,7 +67,7 @@ best_params['max_depth'] = int(best_params['max_depth'])
 xgb_model.set_params(**best_params)
 xgb_model.fit(X_train, y_train)
 
-joblib.dump(xgb_model, 'best_xgb_model.pkl')
+joblib.dump(xgb_model, 'xgb_model.pkl')
 
 def optimize_resilience_for_crop(params, crop_type, label_encoders, scaled_numericals):
     params = np.array(params).reshape(1, -1)
